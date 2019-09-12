@@ -1,16 +1,16 @@
 # Build a React application with Laravel Backend
 
-This project is a basic demo for running Laravel and React together. You can read the tutorial over at [Tutsplus.com](http://code.tutsplus.com/tutorials/build-a-react-app-with-laravel-restful-backend-part-1-laravel-5-api--cms-29442)
+Project ini adalah demo dasar untuk menjalankan Laravel dan React secara bersama. Anda dapat membaca tutorialnya di [Blog Mata Panda Crew](https://matapanda-crew.blogspot.com/2019/09/membangun-aplikasi-react-dengan-laravel.html)
 
 ## Setting up the Demo
 
 
-You need to have all the laravel dependencies and npm/yarn to use this demo. First clone the repo or download it as a zip. 
-Next, make sure that you're on the right branch. If you're here just for the Laravel API, you should be looking at `laravelapi`. If you're here for Laravel + React code, `master` branch is all you need.
+Anda harus memiliki semua dependensi laravel dan npm / yarn untuk menggunakan demo ini. Klon pertama repo atau unduh sebagai zip.
+Selanjutnya, pastikan Anda berada di branch yang benar. Jika Anda di sini hanya untuk API Laravel, Anda harus melihat `laravelapi`. Jika Anda berada di sini untuk Laravel + React code, Anda hanya perlu `branch` master.
 
 ### Laravel Back end
-Setup you DB, .env file, take care of migration and seeding. If you're in doubt, the reading the tutorial should get you in the right track. Once you are done with that, run `php artisan serve`. The api is accessible at `http://localhost:8000/api/products`
+Atur DB, file .env Anda, urus migrasi dan seeding. Jika Anda ragu, membaca tutorial akan membuat Anda berada di jalur yang benar. Setelah selesai, jalankan `php artisan serve`. Api dapat diakses di `http://localhost:8000/api/products`
 
 ### React front-end
 
-To make React work, run `npm install && npm run dev`. Alternatively you can use yarn over npm too. Now, head over to `http://localhost:8000/`
+Untuk membuat React berfungsi, jalankan `npm install && npm run dev`. Atau Anda juga dapat menggunakan yarn di atas npm. Sekarang, pergilah ke`http://localhost:8000/`
